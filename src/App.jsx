@@ -1,13 +1,17 @@
-import { useState } from 'react';
-// import reactLogo from './assets/react.svg';
-// import viteLogo from '/vite.svg';
+// import { useState } from 'react';
 import './App.css';
+import NavBar from './components/NavBar';
+import Hero from './components/Hero';
+import About from './components/About';
+import TechStack from './components/TechStack';
 
 function App() {
-  const [test, setTest] = useState();
   return (
     <>
-      <p>qmed web solutions</p>
+      <NavBar />
+      <Hero />
+      <About />
+      <TechStack />
     </>
   );
 }
