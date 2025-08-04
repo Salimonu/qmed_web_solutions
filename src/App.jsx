@@ -1,17 +1,19 @@
 // import { useState } from 'react';
 import './App.css';
 import NavBar from './components/NavBar';
-import Hero from './components/Hero';
-import About from './components/About';
-import TechStack from './components/TechStack';
+import Home from './pages/Home';
+import Footer from './components/Footer';
+import Services from './components/Services';
+import Project from './components/Project';
 
 function App() {
   return (
     <>
       <NavBar />
-      <Hero />
-      <About />
-      <TechStack />
+      <Project />
+      <Services />
+      <Home />
+      <Footer />
     </>
   );
 }

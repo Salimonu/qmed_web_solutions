@@ -18,7 +18,7 @@ function TechStack() {
           Tech Stack
         </h3>
         <div className="slider">
-          <div className="thumbnails h-26">
+          <div className="thumbnails h-24">
             <img src={html} alt="HTML logo" />
             <img src={css} alt="CSS logo" />
             <img src={sass} alt="SASS logo" />

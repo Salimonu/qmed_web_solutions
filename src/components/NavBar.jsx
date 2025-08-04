@@ -1,4 +1,4 @@
-import qmedLogoSmall from '../assets/portfolio/qmed-logo-small.webp';
+import qmedLogoSmall from '../assets/portfolio/qmed_logo.jpg';
 import { BsLinkedin, BsGithub, BsFacebook } from 'react-icons/bs';
 
 function NavBar() {
@@ -9,18 +9,33 @@ function NavBar() {
           <img src={qmedLogoSmall} alt="Qmed Logo; portfolio web developer" />
         </a>
 
-        <ul className="flex px-3">
-          <li className="px-5">Services</li>
-          <li className="px-5">Skills</li>
-          <li className="px-5">Projects</li>
-          <li className="px-5">Testimonials</li>
-          <li className="px-5">Hire me</li>
+        <ul className="flex px-3 ">
+          <li className="px-5 hover:text-shadow-lg hover:text-shadow-blue-300">
+            <a href="#"> Services</a>
+          </li>
+          <li className="px-5 hover:text-shadow-lg hover:text-shadow-blue-300">
+            <a href="#"> Skills</a>
+          </li>
+          <li className="px-5 hover:text-shadow-lg hover:text-shadow-blue-300">
+            <a href="#"> Projects</a>
+          </li>
+          <li className="px-5 hover:text-shadow-lg hover:text-shadow-blue-300">
+            <a href="#"> Testimonials</a>
+          </li>
+          <li>
+            <a
+              href="#"
+              className="pulse font-semibold py-1 px-2 bg-blue-600 text-white rounded-xl inline-block mr-4 hover:scale-110 duration-1000"
+            >
+              Hire me
+            </a>
+          </li>
         </ul>
 
         <ul className="flex p-5">
           <li className="px-3">
             <a href="https://github.com/Salimonu" target="_blank">
-              <BsGithub />
+              <BsGithub className="hover:scale-140 duration-800" />
             </a>
           </li>
           <li className="px-3">
@@ -28,7 +43,7 @@ function NavBar() {
               href="https://www.linkedin.com/in/hammed-salimonu-6a388322a/"
               target="_blank"
             >
-              <BsLinkedin />
+              <BsLinkedin className="hover:scale-140 duration-800" />
             </a>
           </li>
           <li className="px-3">
@@ -36,7 +51,7 @@ function NavBar() {
               href="https://www.linkedin.com/in/hammed-salimonu-6a388322a/"
               target="_blank"
             >
-              <BsFacebook />
+              <BsFacebook className="hover:scale-140 duration-800" />
             </a>
           </li>
         </ul>
