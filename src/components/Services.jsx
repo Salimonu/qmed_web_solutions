@@ -1,4 +1,7 @@
-// import qmedLogoSmall from '../assets/portfolio/';
+// import React from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 import {
   BsSpeedometer2,
@@ -9,6 +12,10 @@ import {
 } from 'react-icons/bs';
 
 function Services() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <>
       <div className="p-16 text-slate-900 services">
@@ -16,14 +23,18 @@ function Services() {
           <h3 className="px-6 py-3  bg-blue-800 text-3xl font-semibold text-white inline-block rounded-xl mb-8">
             My Services
           </h3>
-          <p className="text-2xl mb-8 text-blue-950">
+          <p className="text-3xl mb-8 text-blue-950">
             {' '}
             🚀 Let's build something great together.{' '}
           </p>
         </div>
 
         <div className="grid grid-cols-2 gap-y-20 gap-x-40">
-          <div className="p-10 bg-blue-100 rounded-xl shadow-2xl">
+          <div
+            className="p-10 bg-blue-100 rounded-xl shadow-2xl"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
             <BsGlobe2 size={42} className="mb-6 text-blue-800" />
             <h5 className="mb-4 text-xl uppercase font-semibold">
               Website Development
@@ -34,7 +45,11 @@ function Services() {
             </p>
           </div>
 
-          <div className="p-10 bg-blue-100 rounded-xl shadow-2xl">
+          <div
+            className="p-10 bg-blue-100 rounded-xl shadow-2xl"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
             <BsSpeedometer2 size={42} className="mb-6 text-blue-800" />
             <h5 className="mb-4 text-xl uppercase font-semibold">
               SEO &amp; Speed Optimization
@@ -46,7 +61,11 @@ function Services() {
             </p>
           </div>
 
-          <div className="p-10 bg-blue-100 rounded-xl shadow-2xl">
+          <div
+            className="p-10 bg-blue-100 rounded-xl shadow-2xl"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
             <BsTools size={42} className="mb-6 text-blue-800" />
             <h5 className="mb-4 text-xl uppercase font-semibold">
               Website Maintenance
@@ -58,7 +77,11 @@ function Services() {
             </p>
           </div>
 
-          <div className="p-10 bg-blue-100 rounded-xl shadow-2xl">
+          <div
+            className="p-10 bg-blue-100 rounded-xl shadow-2xl"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
             <BsPeople size={42} className="mb-6 text-blue-800" />
             <h5 className="mb-4 text-xl uppercase font-semibold">Mentorship</h5>
             <p className="mb-4 text-xl">
@@ -67,7 +90,11 @@ function Services() {
             </p>
           </div>
 
-          <div className="p-10 bg-blue-100 rounded-xl shadow-2xl">
+          <div
+            className="p-10 bg-blue-100 rounded-xl shadow-2xl"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
             <BsPhone size={42} className="mb-6 text-blue-800" />
             <h5 className="mb-4 text-xl uppercase font-semibold">
               Mobile App Development

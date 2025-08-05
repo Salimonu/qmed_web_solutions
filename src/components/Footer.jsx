@@ -1,58 +1,51 @@
 import qmedLogoSmall from '../assets/portfolio/qmed_logo.jpg';
+import { NavLink } from 'react-router';
 
 function Footer() {
   return (
     <>
       <div className="bg-blue-100 text-slate-900 p-16">
         <div className="flex justify-center">
-          <img
-            src={qmedLogoSmall}
-            alt="Brand Logo"
-            className="footer-logo mb-14"
-          />
+          {' '}
+          <a href="/">
+            <img
+              src={qmedLogoSmall}
+              alt="Brand Logo"
+              className="footer-logo mb-18"
+            />
+          </a>
         </div>
-        <div className="grid grid-cols-2 gap-20">
+        <div className="md:grid md:grid-cols-2 gap-20">
           <nav>
-            <ul className="flex  py-2 text-xl border-t-2 justify-between">
-              <li>
-                <a
-                  href="#"
-                  className="hover:scale-120 inline-block duration-700"
-                >
-                  {' '}
-                  Services
-                </a>
+            <ul className="flex mb-16 py-2 text-xl border-t-1 justify-between">
+              <li className="hover:scale-120 inline-block duration-700">
+                {' '}
+                <NavLink to="/services">Services</NavLink>
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/#Skills"
                   className="hover:scale-120 inline-block duration-700"
                 >
                   {' '}
                   Skills
                 </a>
               </li>
-              <li>
-                <a
-                  href="#"
-                  className="hover:scale-120 inline-block duration-700"
-                >
-                  {' '}
-                  Projects
-                </a>
+              <li className="hover:scale-120 inline-block duration-700">
+                <NavLink to="/projects">Projects</NavLink>
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/#About"
                   className="hover:scale-120 inline-block duration-700"
                 >
                   {' '}
-                  Testimonials
+                  About{' '}
                 </a>
               </li>
             </ul>
           </nav>
-          <p className="py-2 text-xl border-t-2">
+          <p className="py-2 text-xl border-t-1">
             Copyright &copy; Designed by{' '}
             <a
               href="mailto:salimonuh@gmail.com"
