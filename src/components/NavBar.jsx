@@ -4,7 +4,7 @@ import { BsLinkedin, BsGithub, BsFacebook } from 'react-icons/bs';
 function NavBar() {
   return (
     <>
-      <div className="grid_nav p-3 text-2xl bg-blue-50 text-blue-800 font-semibold">
+      <div className="grid_nav px-10 py-3 text-2xl bg-blue-50 text-blue-800 font-semibold">
         <a href="#" className="qmed_logo mr-20">
           <img src={qmedLogoSmall} alt="Qmed Logo; portfolio web developer" />
         </a>
@@ -20,7 +20,7 @@ function NavBar() {
             <a href="#"> Projects</a>
           </li>
           <li className="px-5 hover:text-shadow-lg hover:text-shadow-blue-300">
-            <a href="#"> Testimonials</a>
+            <a href="#"> About</a>
           </li>
           <li>
             <a

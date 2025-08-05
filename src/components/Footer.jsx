@@ -3,7 +3,7 @@ import qmedLogoSmall from '../assets/portfolio/qmed_logo.jpg';
 function Footer() {
   return (
     <>
-      <div className="bg-blue-50 text-slate-900 p-16">
+      <div className="bg-blue-100 text-slate-900 p-16">
         <div className="flex justify-center">
           <img
             src={qmedLogoSmall}

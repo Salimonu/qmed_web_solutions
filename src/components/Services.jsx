@@ -1,3 +1,5 @@
+// import qmedLogoSmall from '../assets/portfolio/';
+
 import {
   BsSpeedometer2,
   BsTools,
@@ -10,9 +12,16 @@ function Services() {
   return (
     <>
       <div className="p-16 text-slate-900 services">
-        <h3 className="px-6 py-3  bg-blue-800 text-3xl font-semibold text-white inline-block rounded-xl mb-6">
-          My Services
-        </h3>
+        <div className="text-center">
+          <h3 className="px-6 py-3  bg-blue-800 text-3xl font-semibold text-white inline-block rounded-xl mb-8">
+            My Services
+          </h3>
+          <p className="text-2xl mb-8 text-blue-950">
+            {' '}
+            🚀 Let's build something great together.{' '}
+          </p>
+        </div>
+
         <div className="grid grid-cols-2 gap-y-20 gap-x-40">
           <div className="p-10 bg-blue-100 rounded-xl shadow-2xl">
             <BsGlobe2 size={42} className="mb-6 text-blue-800" />
