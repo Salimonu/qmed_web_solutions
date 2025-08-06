@@ -19,15 +19,15 @@ function Project() {
           <h3 className="px-6 py-3  bg-blue-800 text-3xl font-semibold text-white inline-block rounded-xl mb-8">
             My Recent Work
           </h3>
-          <p className="text-3xl mb-8 text-blue-950">
+          <p className="text-3xl mb-14 text-blue-950">
             {' '}
             Here are a few past web projects I've worked on.{' '}
           </p>
         </div>
 
-        <div className="grid grid-cols-2 gap-y-20 gap-x-40">
+        <div className="lg:grid lg:grid-cols-2 gap-y-20 gap-x-30">
           <div
-            className="p-10 bg-blue-100 rounded-xl shadow-2xl grid grid-cols-[100px_1fr] gap-10 items-center"
+            className="mb-20 lg:mb-0 p-10 bg-blue-100 rounded-xl shadow-2xl grid grid-cols-[100px_1fr] gap-10 items-center"
             data-aos="fade-up"
             data-aos-duration="1200"
           >
@@ -52,7 +52,7 @@ function Project() {
           </div>
 
           <div
-            className="p-10 bg-blue-100 rounded-xl shadow-2xl grid grid-cols-[100px_1fr] gap-10 items-center"
+            className="mb-20 lg:mb-0 p-10 bg-blue-100 rounded-xl shadow-2xl grid grid-cols-[100px_1fr] gap-10 items-center"
             data-aos="fade-up"
             data-aos-duration="1200"
           >
@@ -77,7 +77,7 @@ function Project() {
           </div>
 
           <div
-            className="p-10 bg-blue-100 rounded-xl shadow-2xl grid grid-cols-[100px_1fr] gap-10 items-center"
+            className="mb-20 lg:mb-0 p-10 bg-blue-100 rounded-xl shadow-2xl grid grid-cols-[100px_1fr] gap-10 items-center"
             data-aos="fade-up"
             data-aos-duration="1200"
           >
@@ -102,7 +102,7 @@ function Project() {
           </div>
 
           <div
-            className="p-10 bg-blue-100 rounded-xl shadow-2xl grid grid-cols-[100px_1fr] gap-10 items-center"
+            className="mb-20 lg:mb-0 p-10 bg-blue-100 rounded-xl shadow-2xl grid grid-cols-[100px_1fr] gap-10 items-center"
             data-aos="fade-up"
             data-aos-duration="1200"
           >

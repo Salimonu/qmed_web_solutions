@@ -14,7 +14,7 @@ function TechStack() {
   return (
     <div>
       <section className="p-6 -mt-20 bg-gray-50 text-center" id="Skills">
-        <h3 className=" px-6 py-3  bg-blue-800 text-3xl font-semibold text-white inline-block rounded-xl mb-6">
+        <h3 className="px-6 py-3 mb-10  bg-blue-800 text-3xl font-semibold text-white inline-block rounded-xl">
           Tech Stack
         </h3>
         <div className="slider">

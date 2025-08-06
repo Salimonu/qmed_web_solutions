@@ -23,15 +23,15 @@ function Services() {
           <h3 className="px-6 py-3  bg-blue-800 text-3xl font-semibold text-white inline-block rounded-xl mb-8">
             My Services
           </h3>
-          <p className="text-3xl mb-8 text-blue-950">
+          <p className="text-4xl mb-12 text-blue-950">
             {' '}
             🚀 Let's build something great together.{' '}
           </p>
         </div>
 
-        <div className="grid grid-cols-2 gap-y-20 gap-x-40">
+        <div className="lg:grid lg:grid-cols-2 gap-y-20 gap-x-30">
           <div
-            className="p-10 bg-blue-100 rounded-xl shadow-2xl"
+            className="mb-20 lg:mb-0 p-10 bg-blue-100 rounded-xl shadow-2xl"
             data-aos="fade-up"
             data-aos-duration="1200"
           >
@@ -46,7 +46,7 @@ function Services() {
           </div>
 
           <div
-            className="p-10 bg-blue-100 rounded-xl shadow-2xl"
+            className="mb-20 lg:mb-0 p-10 bg-blue-100 rounded-xl shadow-2xl"
             data-aos="fade-up"
             data-aos-duration="1200"
           >
@@ -62,7 +62,7 @@ function Services() {
           </div>
 
           <div
-            className="p-10 bg-blue-100 rounded-xl shadow-2xl"
+            className="mb-20 lg:mb-0 p-10 bg-blue-100 rounded-xl shadow-2xl"
             data-aos="fade-up"
             data-aos-duration="1200"
           >
@@ -78,7 +78,7 @@ function Services() {
           </div>
 
           <div
-            className="p-10 bg-blue-100 rounded-xl shadow-2xl"
+            className="mb-20 lg:mb-0 p-10 bg-blue-100 rounded-xl shadow-2xl"
             data-aos="fade-up"
             data-aos-duration="1200"
           >
@@ -91,7 +91,7 @@ function Services() {
           </div>
 
           <div
-            className="p-10 bg-blue-100 rounded-xl shadow-2xl"
+            className="mb-20 lg:mb-0 p-10 bg-blue-100 rounded-xl shadow-2xl"
             data-aos="fade-up"
             data-aos-duration="1200"
           >

@@ -11,7 +11,7 @@ function Hero() {
 
   return (
     <section className="hero text-white z-10">
-      <div className="absolute top-20 left-80">
+      <div className="absolute top-20 left-20 md:left-50">
         <p
           className="flex items-center"
           data-aos="fade-up-left"
@@ -21,7 +21,7 @@ function Hero() {
           <span className="text-4xl ml-2"> Welcome, I'm Hammed</span>
         </p>
         <h1
-          className=" text-6xl font-semibold mb-10 mt-4"
+          className="text-6xl font-semibold mb-18 md:mb-10 mt-4"
           data-aos="fade-up-left"
           data-aos-duration="1200"
         >

@@ -40,7 +40,7 @@ function App() {
     <>
       <div className="relative">
         <NavBar onOpen={handleToggle} />
-        {isOpen && <SideBar />}
+        {isOpen && <SideBar setIsOpen={setIsOpen} />}
         <Routes>
           <Route index element={<Home />} />
           <Route path="services" element={<Services />} />

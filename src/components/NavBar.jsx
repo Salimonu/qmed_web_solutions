@@ -38,7 +38,7 @@ function NavBar({ onOpen }) {
           </li>
         </ul>
 
-        <ul className="flex p-5">
+        <ul className="flex gap-10 xl:gap-0 p-5">
           <li className="px-3">
             <a href="https://github.com/Salimonu" target="_blank">
               <BsGithub className="hover:scale-140 duration-800" />

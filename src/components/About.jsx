@@ -13,7 +13,7 @@ function About() {
   return (
     <div>
       <section
-        className="grid grid-cols-2 p-30 items-center gap-10 bg-blue-50 -translate-y-20"
+        className="lg:grid lg:grid-cols-2 py-30 px-20 lg:px-20 items-center gap-10 bg-blue-50 -translate-y-20"
         id="About"
       >
         <div data-aos="fade-up" data-aos-duration="1200">
@@ -34,7 +34,11 @@ function About() {
             <Link to="/contact">Let's get started &rarr;</Link>
           </a>
         </div>
-        <div className="circle" data-aos="fade-up" data-aos-duration="1200">
+        <div
+          className="circle mt-16 lg:mt-0"
+          data-aos="fade-up"
+          data-aos-duration="1200"
+        >
           <img
             className="translate-y-40"
             src={aboutImg}
