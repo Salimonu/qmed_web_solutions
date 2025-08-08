@@ -33,7 +33,7 @@ function NavBar({ onOpen }) {
               href="#"
               className="pulse font-semibold py-1 px-2 bg-blue-600 text-white rounded-xl inline-block mr-4 hover:scale-110 duration-1000"
             >
-              <NavLink to="/contact">Hire me</NavLink>
+              <NavLink to="/contact">Let's Talk</NavLink>
             </a>
           </li>
         </ul>

@@ -1,11 +1,27 @@
+import { useEffect, useRef } from 'react';
 import qmedLogoSmall from '../assets/portfolio/qmed_logo.jpg';
 import { NavLink } from 'react-router';
 
 function SideBar({ setIsOpen }) {
+  const sidebarRef = useRef(null);
+
   const closeSideBar = () => setIsOpen(false);
 
+  useEffect(() => {
+    function handleCloseSideBar(event) {
+      if (sidebarRef.current && !sidebarRef.current.contains(event.target)) {
+        closeSideBar();
+      }
+    }
+    document.addEventListener('mousedown', handleCloseSideBar);
+    return () => document.removeEventListener('mousedown', handleCloseSideBar);
+  }, [closeSideBar]);
+
   return (
-    <div className="fixed z-50 top-0 h-screen w-[70vw] py-3 text-xl bg-blue-50/90 text-blue-800 font-semibold">
+    <div
+      ref={sidebarRef}
+      className="fixed z-50 top-0 h-screen w-[70vw] py-3 text-xl bg-blue-50/90 text-blue-800 font-semibold"
+    >
       <div className="qmed_logo ml-8 mt-8">
         <NavLink to="/">
           <img
