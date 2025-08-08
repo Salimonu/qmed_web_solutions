@@ -14,12 +14,12 @@ function Project() {
 
   return (
     <>
-      <div className="services p-16 ">
+      <div className="services px-8 lg:px-16 py-16">
         <div className="text-center">
           <h3 className="px-6 py-3  bg-blue-800 text-3xl font-semibold text-white inline-block rounded-xl mb-8">
             My Recent Work
           </h3>
-          <p className="text-3xl mb-14 text-blue-950">
+          <p className="text-3xl leading-12 mb-14 text-blue-950">
             {' '}
             Here are a few past web projects I've worked on.{' '}
           </p>
@@ -27,7 +27,7 @@ function Project() {
 
         <div className="lg:grid lg:grid-cols-2 gap-y-20 gap-x-30">
           <div
-            className="mb-20 lg:mb-0 p-10 bg-blue-100 rounded-xl shadow-2xl grid grid-cols-[100px_1fr] gap-10 items-center"
+            className="mb-20 lg:mb-0 px-4 lg:px-10 py-10 bg-blue-100 rounded-xl shadow-2xl grid grid-cols-[100px_1fr] gap-4 lg:gap-10 items-center"
             data-aos="fade-up"
             data-aos-duration="1200"
           >
@@ -52,7 +52,7 @@ function Project() {
           </div>
 
           <div
-            className="mb-20 lg:mb-0 p-10 bg-blue-100 rounded-xl shadow-2xl grid grid-cols-[100px_1fr] gap-10 items-center"
+            className="mb-20 lg:mb-0 px-4 lg:px-10 py-10 bg-blue-100 rounded-xl shadow-2xl grid grid-cols-[100px_1fr] gap-4 lg:gap-10 items-center"
             data-aos="fade-up"
             data-aos-duration="1200"
           >
@@ -77,7 +77,7 @@ function Project() {
           </div>
 
           <div
-            className="mb-20 lg:mb-0 p-10 bg-blue-100 rounded-xl shadow-2xl grid grid-cols-[100px_1fr] gap-10 items-center"
+            className="mb-20 lg:mb-0 px-4 lg:px-10 py-10 bg-blue-100 rounded-xl shadow-2xl grid grid-cols-[100px_1fr] gap-4 lg:gap-10 items-center"
             data-aos="fade-up"
             data-aos-duration="1200"
           >
@@ -102,7 +102,7 @@ function Project() {
           </div>
 
           <div
-            className="mb-20 lg:mb-0 p-10 bg-blue-100 rounded-xl shadow-2xl grid grid-cols-[100px_1fr] gap-10 items-center"
+            className="mb-20 lg:mb-0 px-4 lg:px-10 py-10 bg-blue-100 rounded-xl shadow-2xl grid grid-cols-[100px_1fr] gap-4 lg:gap-10 items-center"
             data-aos="fade-up"
             data-aos-duration="1200"
           >

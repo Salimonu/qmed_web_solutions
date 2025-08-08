@@ -18,12 +18,12 @@ function Services() {
 
   return (
     <>
-      <div className="p-16 text-slate-900 services">
+      <div className="px-8 md:px-16 py-16 text-slate-900 services">
         <div className="text-center">
           <h3 className="px-6 py-3  bg-blue-800 text-3xl font-semibold text-white inline-block rounded-xl mb-8">
             My Services
           </h3>
-          <p className="text-4xl mb-12 text-blue-950">
+          <p className="leading-12 text-4xl mb-12 text-blue-950">
             {' '}
             🚀 Let's build something great together.{' '}
           </p>
@@ -39,7 +39,7 @@ function Services() {
             <h5 className="mb-4 text-xl uppercase font-semibold">
               Website Development
             </h5>
-            <p className="mb-4 text-xl">
+            <p className="mb-4 text-2xl lg:text-xl">
               I design and build clean and fast websites tailored to your brand
               and business goals that work seamlessly on all devices.
             </p>
@@ -54,7 +54,7 @@ function Services() {
             <h5 className="mb-4 text-xl uppercase font-semibold">
               SEO &amp; Speed Optimization
             </h5>
-            <p className="mb-4 text-xl">
+            <p className="mb-4 text-2xl lg:text-xl">
               I optimize your website to rank higher on Google and attract more
               organic traffic. I ensure your site is search engine–friendly and
               ready to grow.
@@ -70,7 +70,7 @@ function Services() {
             <h5 className="mb-4 text-xl uppercase font-semibold">
               Website Maintenance
             </h5>
-            <p className="mb-4 text-xl">
+            <p className="mb-4 text-2xl lg:text-xl">
               Keep your website running smoothly with regular updates, backups,
               and security checks. I handle the tech stuff so you can focus on
               your business
@@ -84,7 +84,7 @@ function Services() {
           >
             <BsPeople size={42} className="mb-6 text-blue-800" />
             <h5 className="mb-4 text-xl uppercase font-semibold">Mentorship</h5>
-            <p className="mb-4 text-xl">
+            <p className="mb-4 text-2xl lg:text-xl">
               I provide hands-on mentorship to aspiring developers, guiding them
               through real-world projects to accelerate their growth.
             </p>
@@ -99,7 +99,7 @@ function Services() {
             <h5 className="mb-4 text-xl uppercase font-semibold">
               Mobile App Development
             </h5>
-            <p className="mb-4 text-xl">
+            <p className="mb-4 text-2xl lg:text-xl">
               I build fast, user-friendly mobile apps that solve real problems
               and deliver seamless experiences across Android and iOS platforms.
             </p>

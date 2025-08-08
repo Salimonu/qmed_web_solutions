@@ -13,7 +13,7 @@ function About() {
   return (
     <div>
       <section
-        className="lg:grid lg:grid-cols-2 py-30 px-20 lg:px-20 items-center gap-10 bg-blue-50 -translate-y-20"
+        className="lg:grid lg:grid-cols-2 py-30 px-8 md:px-20 lg:px-20 items-center gap-10 bg-blue-50 -translate-y-20"
         id="About"
       >
         <div data-aos="fade-up" data-aos-duration="1200">

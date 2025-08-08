@@ -17,6 +17,13 @@
   overflow: hidden;
 }
 
+@media (width <= 450px) {
+  .circle {
+    width: 24rem;
+    height: 24rem;
+  }
+}
+
 .cta {
   background-image: linear-gradient(
       to right bottom,

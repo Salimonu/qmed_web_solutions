@@ -4,7 +4,7 @@ import { NavLink } from 'react-router';
 function Footer() {
   return (
     <>
-      <div className="bg-blue-100 text-slate-900 p-16">
+      <div className="bg-blue-100 text-slate-900 px-8 lg:px-16 py-16">
         <div className="flex justify-center">
           {' '}
           <a href="/">
@@ -46,15 +46,15 @@ function Footer() {
             </ul>
           </nav>
           <p className="py-2 text-xl border-t-1">
-            Copyright &copy; Designed by{' '}
+            &copy; 2025.{' '}
             <a
               href="mailto:salimonuh@gmail.com"
               target="_blank"
               className="underline hover:font-semibold duration-1000"
             >
-              Qmed Web Solutions
+              Qmed Web Solutions.
             </a>{' '}
-            @ 2025. All rights reserved.
+            All rights reserved.
           </p>
         </div>
       </div>

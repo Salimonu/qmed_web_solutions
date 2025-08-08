@@ -6,7 +6,7 @@ function NavBar({ onOpen }) {
   return (
     <>
       <div className="sticky z-40 top-0 grid_nav px-10 py-3 text-2xl bg-blue-50 text-blue-800 font-semibold">
-        <span className="qmed_logo mr-20">
+        <span className="qmed_logo xl:mr-20">
           <NavLink to="/">
             <img src={qmedLogoSmall} alt="Qmed Logo; portfolio web developer" />
           </NavLink>
@@ -38,7 +38,7 @@ function NavBar({ onOpen }) {
           </li>
         </ul>
 
-        <ul className="flex gap-10 xl:gap-0 p-5">
+        <ul className="flex sm:gap-10 xl:gap-0 p-5">
           <li className="px-3">
             <a href="https://github.com/Salimonu" target="_blank">
               <BsGithub className="hover:scale-140 duration-800" />

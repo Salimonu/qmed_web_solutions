@@ -11,7 +11,7 @@ function Hero() {
 
   return (
     <section className="hero text-white z-10">
-      <div className="absolute top-20 left-20 md:left-50">
+      <div className="absolute top-10 md:top-20 left-15 md:left-50">
         <p
           className="flex items-center"
           data-aos="fade-up-left"
@@ -21,7 +21,7 @@ function Hero() {
           <span className="text-4xl ml-2"> Welcome, I'm Hammed</span>
         </p>
         <h1
-          className="text-6xl font-semibold mb-18 md:mb-10 mt-4"
+          className="text-6xl font-semibold mb-12 md:mb-10 mt-4"
           data-aos="fade-up-left"
           data-aos-duration="1200"
         >
@@ -31,7 +31,7 @@ function Hero() {
 
         <a
           href="#"
-          className="pulse uppercase font-semibold py-1 px-2 bg-blue-50 text-blue-900 text-3xl rounded-xl inline-block mr-4 hover:scale-110 duration-1000"
+          className="pulse uppercase font-semibold py-1 px-2 bg-blue-50 text-blue-900 text-3xl rounded-xl inline-block mr-4 mb:4 hover:scale-110 duration-1000"
         >
           <Link to="/contact">Hire me</Link>
         </a>
