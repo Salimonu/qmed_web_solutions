@@ -31,7 +31,7 @@ function Hero() {
 
         <a
           href="#"
-          className="pulse uppercase font-semibold py-1 px-2 bg-blue-50 text-blue-900 text-3xl rounded-xl inline-block mr-4 mb:4 hover:scale-110 duration-1000"
+          className="pulse uppercase font-semibold py-1 px-2 bg-blue-50 text-blue-900 text-3xl rounded-xl inline-block mr-4 mb-4 hover:scale-110 duration-1000"
         >
           <Link to="/contact">Let's Talk</Link>
         </a>

@@ -1,8 +1,14 @@
 import qmedLogoSmall from '../assets/portfolio/qmed_logo.jpg';
-import { BsLinkedin, BsGithub, BsFacebook, BsList } from 'react-icons/bs';
+import {
+  BsLinkedin,
+  BsGithub,
+  BsFacebook,
+  BsList,
+  BsXLg,
+} from 'react-icons/bs';
 import { NavLink } from 'react-router';
 
-function NavBar({ onOpen }) {
+function NavBar({ isOpen, onOpen }) {
   return (
     <>
       <div className="sticky z-40 top-0 grid_nav px-10 py-3 text-2xl bg-blue-50 text-blue-800 font-semibold">
@@ -62,12 +68,21 @@ function NavBar({ onOpen }) {
           </li>
         </ul>
 
-        <div className="xl:hidden">
-          <BsList
-            onClick={onOpen}
-            className="pointer text-4xl hover:scale-140 duration-800"
-          />
-        </div>
+        {isOpen ? (
+          <div className="xl:hidden">
+            <BsXLg
+              onClick={onOpen}
+              className="pointer text-4xl hover:scale-140 duration-800"
+            />
+          </div>
+        ) : (
+          <div className="xl:hidden">
+            <BsList
+              onClick={onOpen}
+              className="pointer text-4xl hover:scale-140 duration-800"
+            />
+          </div>
+        )}
       </div>
     </>
   );

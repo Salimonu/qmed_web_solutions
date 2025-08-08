@@ -31,6 +31,8 @@ import { useState } from 'react';
 function App() {
   const [isOpen, setIsOpen] = useState(false);
 
+  const closeSideBar = () => setIsOpen(false);
+
   function handleToggle() {
     setIsOpen(cur => !cur);
   }
@@ -38,8 +40,8 @@ function App() {
   return (
     <>
       <div className="relative">
-        <NavBar onOpen={handleToggle} />
-        {isOpen && <SideBar setIsOpen={setIsOpen} />}
+        <NavBar isOpen={isOpen} onOpen={handleToggle} />
+        {isOpen && <SideBar isOpen={isOpen} closeSideBar={closeSideBar} />}
         <Routes>
           <Route index element={<Home />} />
           <Route path="services" element={<Services />} />

@@ -42,14 +42,14 @@ function Contact() {
                   <a
                     href="mailto:salimonuh@gmail.com"
                     target="_blank"
-                    className="block font-semibold px-2 bg-slate-200 text-blue-900  hover:font-extrabold"
+                    className="block px-1 bg-slate-200 text-blue-900  hover:font-extrabold"
                   >
                     salimonuh@gmail.com
                   </a>
                   <a
                     href="https://www.qmedventures.com"
                     target="_blank"
-                    className="block mt-2 font-semibold px-2 bg-slate-200 text-blue-900  hover:font-extrabold"
+                    className="block mt-2 px-1 bg-slate-200 text-blue-900  hover:font-extrabold"
                   >
                     qmedwebsolutions.netlify.app
                   </a>
