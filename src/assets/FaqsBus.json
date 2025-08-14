@@ -1,0 +1,42 @@
+[
+  {
+    "question": "Q1. Why does my business need a website?",
+    "answer": "A website helps your business reach more customers, build credibility, showcase your products or services, and generate sales 24/7. It’s your digital storefront."
+  },
+  {
+    "question": "Q2. How long does it take to build a website?",
+    "answer": "The timeline depends on your website’s complexity. A basic business website can take 1–3 weeks, while custom and feature-rich websites may take 4–8 weeks or more."
+  },
+  {
+    "question": "Q3. How much does a website cost for my business?",
+    "answer": "Costs vary depending on design, features, and functionality. Basic websites are more affordable, while e-commerce or custom platforms require a bigger budget. We provide transparent quotes before starting."
+  },
+  {
+    "question": "Q4. Will my website be mobile-friendly?",
+    "answer": "Yes. All our websites are designed to be responsive, meaning they look great and work perfectly on smartphones, tablets, and desktops."
+  },
+  {
+    "question": "Q5. Can you redesign my existing business website?",
+    "answer": "Absolutely. We can refresh your website with a modern look, improved performance, better user experience, and SEO optimization."
+  },
+  {
+    "question": "Q6. Do you offer SEO services with website development?",
+    "answer": "Yes. We optimize your website for search engines to help potential customers find your business online faster."
+  },
+  {
+    "question": "Q7. Will I be able to update the website myself after it’s built?",
+    "answer": "Yes. We use tools like HTML, CSS, Javascript, and Django. The Source code will be made available on request allowing you to update content, images, and products with technical skills. We also offer training."
+  },
+  {
+    "question": "Q8. Do you provide website maintenance after launch?",
+    "answer": "Yes. We offer maintenance plans to keep your website secure, updated, and running smoothly."
+  },
+  {
+    "question": "Q9. Can you integrate online payments into my website?",
+    "answer": "Yes. We can integrate secure payment gateways like PayPal, Stripe, Flutterwave, and Paystack for your business."
+  },
+  {
+    "question": "Q10. How do we get started?",
+    "answer": "Simply contact us for a free consultation. We’ll discuss your business needs, create a plan, and start building your website."
+  }
+]

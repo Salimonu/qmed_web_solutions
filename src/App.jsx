@@ -9,24 +9,8 @@ import Contact from './components/Contact';
 import PageNotFound from './components/PageNotFound';
 import { Routes, Route } from 'react-router';
 import { useState } from 'react';
-
-{
-  /* <Routes>
-  <Route index element={<Home />} />
-  <Route path="about" element={<About />} />
-
-  <Route element={<AuthLayout />}>
-    <Route path="login" element={<Login />} />
-    <Route path="register" element={<Register />} />
-  </Route>
-
-  <Route path="concerts">
-    <Route index element={<ConcertsHome />} />
-    <Route path=":city" element={<City />} />
-    <Route path="trending" element={<Trending />} />
-  </Route>
-</Routes>; */
-}
+import FaqPageBus from './pages/FaqPageBus';
+import FaqPageMentees from './pages/FaqPageMentees';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -47,6 +31,8 @@ function App() {
           <Route path="services" element={<Services />} />
           <Route path="projects" element={<Projects />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="faqs" element={<FaqPageBus />} />
+          <Route path="faqstutorial" element={<FaqPageMentees />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
         <Footer />

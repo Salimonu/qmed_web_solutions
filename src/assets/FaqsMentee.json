@@ -1,0 +1,42 @@
+[
+  {
+    "question": "Q1. Who can join your website development tutorials?",
+    "answer": "Our tutorials are designed for beginners, intermediate learners, and business owners who want to build or manage their own websites. No prior coding experience is required for beginner lessons."
+  },
+  {
+    "question": "Q2. What topics do you cover in the tutorials?",
+    "answer": "We cover HTML, CSS, JavaScript, Responsive Web Design, WordPress, E-commerce Website Development, SEO basics, and backend development using frameworks like Django or Node.js."
+  },
+  {
+    "question": "Q3. Are the tutorials beginner-friendly?",
+    "answer": "Yes. We start from the basics and gradually introduce more advanced concepts with step-by-step guidance."
+  },
+  {
+    "question": "Q4. Do you provide live classes or recorded lessons?",
+    "answer": "We offer both. You can attend live interactive sessions or watch recorded lessons at your own pace."
+  },
+  {
+    "question": "Q5. How long does it take to learn website development?",
+    "answer": "It depends on your learning pace and the depth of skills you want. Many students can build their first website in 4–6 weeks of consistent learning."
+  },
+  {
+    "question": "Q6. Do I need to install any software before starting?",
+    "answer": "We’ll guide you through setting up free and beginner-friendly tools like Visual Studio Code, browsers, and hosting platforms before starting."
+  },
+  {
+    "question": "Q7. Will I work on real projects?",
+    "answer": "Yes. You’ll complete hands-on projects such as personal portfolios, business websites, and e-commerce stores to gain practical skills."
+  },
+  {
+    "question": "Q8. Do you give certificates after completion?",
+    "answer": "Yes. We provide a certificate of completion to showcase your new skills to employers or clients."
+  },
+  {
+    "question": "Q9. Do you offer one-on-one mentorship?",
+    "answer": "Yes. We have personalized mentorship packages for learners who want dedicated guidance."
+  },
+  {
+    "question": "Q10. How do I enroll in your tutorials?",
+    "answer": "Simply register through our website’s enrollment form or contact us directly to secure your slot."
+  }
+]

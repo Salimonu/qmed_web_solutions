@@ -29,19 +29,15 @@ function Hero() {
           <br /> Javascript & Django Expert
         </h1>
 
-        <a
-          href="#"
-          className="pulse uppercase font-semibold py-1 px-2 bg-blue-50 text-blue-900 text-3xl rounded-xl inline-block mr-4 mb-4 hover:scale-110 duration-1000"
-        >
+        <span className="pulse uppercase font-semibold py-1 px-2 bg-blue-50 text-blue-900 text-3xl rounded-xl inline-block mr-4 mb-4 hover:scale-110 duration-1000">
           <Link to="/contact">Let's Talk</Link>
-        </a>
-        <a
-          href="#"
+        </span>
+        <span
           type="button"
           className="uppercase font-semibold text-2xl py-1 px-2 outline-1 outline-white rounded-xl inline-block mr-4 hover:scale-110 duration-1000"
         >
           <Link to="/projects">View My Work &darr;</Link>
-        </a>
+        </span>
       </div>
     </section>
   );
