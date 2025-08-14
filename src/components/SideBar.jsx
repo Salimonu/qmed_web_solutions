@@ -114,7 +114,6 @@ function SideBar({ isOpen, closeSideBar }) {
           </li>
 
           <li
-            onClick={closeSideBar}
             ref={dropDownRef}
             onMouseEnter={() => setDropDownOpen(true)}
             onMouseLeave={() => setDropDownOpen(false)}
@@ -133,12 +132,18 @@ function SideBar({ isOpen, closeSideBar }) {
 
               {dropDownOpen && (
                 <ul className="text-lg absolute left-0 w-100 bg-gray-200 p-4 rounded z-10">
-                  <li className="mb-2 hover:text-shadow-lg hover:text-shadow-blue-300">
+                  <li
+                    onClick={closeSideBar}
+                    className="mb-2 hover:text-shadow-lg hover:text-shadow-blue-300"
+                  >
                     <NavLink to="/faqs">
                       🌏 Website Development for Businesses
                     </NavLink>
                   </li>
-                  <li className="hover:text-shadow-lg hover:text-shadow-blue-300">
+                  <li
+                    onClick={closeSideBar}
+                    className="hover:text-shadow-lg hover:text-shadow-blue-300"
+                  >
                     <NavLink to="/faqstutorial">
                       📘 Tutorial on Website Development
                     </NavLink>
@@ -155,7 +160,7 @@ function SideBar({ isOpen, closeSideBar }) {
           </li>
         </ul>
 
-        <ul className="flex gap-10 p-5 mt-30">
+        <ul className="flex gap-10 p-5 mt-28">
           <li className="px-3">
             <a href="https://github.com/Salimonu" target="_blank">
               <BsGithub className="hover:scale-140 duration-800" />
