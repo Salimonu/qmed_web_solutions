@@ -131,7 +131,7 @@ function SideBar({ isOpen, closeSideBar }) {
               </button>
 
               {dropDownOpen && (
-                <ul className="text-lg absolute left-0 w-100 bg-gray-200 p-4 rounded z-10">
+                <ul className="text-lg absolute left-0 w-92 bg-gray-200 p-4 rounded z-10">
                   <li
                     onClick={closeSideBar}
                     className="mb-2 hover:text-shadow-lg hover:text-shadow-blue-300"
