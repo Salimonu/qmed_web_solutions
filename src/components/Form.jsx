@@ -23,21 +23,21 @@ function Form({ heading, text, email }) {
 
     fetch('/', {
       method: 'POST',
-      body: 'formData',
+      body: formData,
     })
       .then(() => setSubmitted(true))
       .catch(error => alert(error));
-
-    if (submitted) {
-      return (
-        <div className="bg-blue-100 text-center p-8 rounded-xl shadow">
-          <h2 className="text-2xl font-bold text-blue-700">
-            ✅ Thank you! Your message has been sent.
-          </h2>
-        </div>
-      );
-    }
   };
+
+  if (submitted) {
+    return (
+      <div className="bg-blue-100 text-center p-8 rounded-xl shadow">
+        <h2 className="text-2xl font-bold text-blue-700">
+          ✅ Thank you! Your message has been sent.
+        </h2>
+      </div>
+    );
+  }
 
   return (
     <>
