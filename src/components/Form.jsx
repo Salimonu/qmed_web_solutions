@@ -28,7 +28,10 @@ function Form({ heading, text, email }) {
             />
           </div>
 
-          <button className="text-xl mt-4 bg-blue-600 pointer p-2 uppercase rounded w-[100%] text-slate-200  hover:bg-blue-800">
+          <button
+            type="submit"
+            className="text-xl mt-4 bg-blue-600 pointer p-2 uppercase rounded w-[100%] text-slate-200  hover:bg-blue-800"
+          >
             Submit
           </button>
         </form>
