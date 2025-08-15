@@ -2,7 +2,7 @@ function Form({ heading, text, email }) {
   return (
     <>
       <div className="bg-blue-100 text-gray-900 lg:w-[40vw] mx-auto mt-10 py-10 px-4 md:px-10 rounded-2xl shadow-xl shadow-gray-600">
-        <form netlify name="inquiries">
+        <form name="inquiries" netlify>
           <h4 className="text-2xl md:text-3xl leading-10 text-blue-900 mb-6 text-center">
             ⁉️ {heading}
           </h4>
